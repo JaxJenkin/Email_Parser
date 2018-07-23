@@ -5,6 +5,10 @@ and save it in a text file.
 Also, it has a validate function that allow user to validate whether the email that parsed from the TEXT file
 or URL address is valid or invalid.
 
+Installation
+============
+You can use the Email Parser.exe which can be found in the EmailParser application folder to run the Email Parser, or use Visual Studio to compile the code yourself if you wish to customize the codes.
+
 Pre-requisites 
 ===============
 An API Key is required for validation function.
