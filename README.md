@@ -17,18 +17,14 @@ Instructions
 1. Click "Browse" button and select TEXT file that contains email address.
 2. Click "Parse" button to parse the emails from the TEXT file.
 3. Select emails address and save it.
-
 *Optional*
-
 Select 1 email and click "Validate" button to validate the email address.
 
 ### Parsing emails from URL address
 1. Enter URL address in the textbox. Example: https://www.mailboxvalidator.com/
 2. Click "Parse" button to parse emails from the webpage.
 3. Select emails address and save it.
-
 *Optional*
-
 Select 1 email and click "Validate" button to validate the email address
 
 

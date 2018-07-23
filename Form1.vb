@@ -437,13 +437,22 @@ Public Class Form1
             ParseBtn.Visible = True
             AbortBtn.Enabled = False
             AbortBtn.Visible = False
-        Else
+        ElseIf DialogResult.Cancel Then
             ParseBtn.Enabled = True
             ParseBtn.Visible = True
             AbortBtn.Enabled = False
             AbortBtn.Visible = False
             saveBtn.Enabled = False
             validateBtn.Enabled = False
+
+        ElseIf dialogresult.abort Then
+            ParseBtn.Enabled = True
+            ParseBtn.Visible = True
+            AbortBtn.Enabled = False
+            AbortBtn.Visible = False
+            saveBtn.Enabled = False
+            validateBtn.Enabled = False
+
         End If
 
     End Sub
@@ -617,7 +626,8 @@ Public Class Form1
         apikey = readvalue
         Me.UseWaitCursor = True
         MessageBox.Show("Successfully saved.", "Save")
-
+        Me.UseWaitCursor = False
+        APIsaveBtn.Enabled = False
 
 
 
